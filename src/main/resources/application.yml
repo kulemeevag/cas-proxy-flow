@@ -1,0 +1,8 @@
+security:
+  cas:
+    server:
+      base-url: https://cas.example.com/cas/
+    service:
+      resolution-mode: dynamic
+      paths:
+        proxy-callback: http://192.168.0.135:8080/casCallback
